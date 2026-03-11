@@ -79,7 +79,7 @@ const VideoInsightsSection = () => {
                 <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-2xl mb-8">
                     <video
                         ref={videoRef}
-                        src={isVisible ? "/assets/PROFIL HIGHRES.mp4" : undefined}
+                        src={isVisible ? "https://mv3iuvucdohhaitp.public.blob.vercel-storage.com/PROFIL%20HIGHRES.mp4" : undefined}
                         muted
                         loop
                         playsInline
